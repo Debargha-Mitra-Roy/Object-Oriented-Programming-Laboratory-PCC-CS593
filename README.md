@@ -245,3 +245,22 @@ LAB assignment and Notes of Object Oriented Programming.
   * `UnderflowException`
 
   Define `push()`, `pop()`, where the array representation of stack is `Overflow` then `push()` throw `OverflowExceptionObject` and when stack is underflow then `pop()` throw `UnderflowExceptionObject`.
+
+* ### Question-18
+
+  Write a program to implement the `push` & `pop` operation on stack using Array.
+
+  `push()` when the stack is full and `pop()` when the stack is empty then throw `StackOverflowException` & `StackUnderflowException` respectively.
+
+* ### Question-19
+
+  1. Create a MultiThreaded program to implement the following :-
+
+     * Generate all even numbers between `1 to N`.
+     * Generate all odd numbers between `1 to N`.
+     * Generate first `n` Fibbonacci Numbers.
+     * Generate all Prime numbers between `1 to N`.
+
+  2. Implement Thread Syncronization.
+
+  3. Impement **Producer & Consumer** Problem.

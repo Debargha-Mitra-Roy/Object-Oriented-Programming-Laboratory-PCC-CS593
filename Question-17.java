@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 class NoMatchException extends Exception {
 
-    public String NoMatchException() {
-
-        return "Not Equal";
+    NoMatchException(String msg) {
+        super(msg);
     }
 }
 
@@ -26,10 +25,8 @@ class userDefine {
                 System.out.println("Equal");
 
             else
-                throw new NoMatchException();
-        }
-
-        catch (NoMatchException e) {
+                throw new NoMatchException("Not Equal");
+        } catch (NoMatchException e) {
             System.out.println(e);
         }
     }
